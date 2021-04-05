@@ -2,9 +2,10 @@
   "development": {
     "username": "postgres",
     "password": "postgres",
-    "database": "fe_sequelize",
+    "database": "test__",
     "host": "127.0.0.1",
-    "dialect": "postgres"
+    "dialect": "postgres",
+    "seederStorage": "json"
   },
   "test": {},
   "production": {}
