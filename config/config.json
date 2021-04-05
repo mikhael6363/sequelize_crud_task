@@ -5,8 +5,8 @@
     "database": "fe_sequelize",
     "host": "127.0.0.1",
     "dialect": "postgres",
-    "seederStorage": "json",
-    "migrationStorage": "json"
+    "migrationStorage": "json",
+    "seederStorage": "json"
   },
   "test": {},
   "production": {}
