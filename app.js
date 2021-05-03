@@ -1,12 +1,9 @@
 const express = require('express');
-const router = require('./router');
+const router = require('./routes');
 
 const app = express();
 
-app.use(express.json()); // data stream -> json -> js object -> req.body
-/* 
-  http://localhost:3000/api/*
- */
+app.use(express.json());
 app.use('/api', router);
 
 app.use((err, req, res, next) => {
