@@ -1,0 +1,9 @@
+PATCH http://localhost:3000/api/superheroes/1 HTTP/1.1
+Content-Type: application/json
+
+{
+  "nickname":"Spider-Man",
+  "realName":"Peter Parker",
+  "originDescription":"Bitten by a radioactive spider, Peter Parker’s arachnid abilities give him amazing powers he uses to help others, while his personal life continues to offer plenty of obstacles.",
+  "catchPhrase":"With great power, there must also come great responsibility."
+}

@@ -1,0 +1,9 @@
+POST http://localhost:3000/api/superhero HTTP/1.1
+Content-Type: application/json
+
+{
+  "nickname": "Superman",
+  "realName": "Clark Kent",
+  "originDescription": "he was born Kal-El on the planet Krypton, before being rocketed to Earth as an infant by his scientist father Jor-El, moments before Krypton's destruction...",
+  "catchPhrase": "Look, up in the sky, it's a bird, it's a plane, it's Superman!"
+}
